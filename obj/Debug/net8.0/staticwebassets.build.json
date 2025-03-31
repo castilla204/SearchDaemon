@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "L/Sz3R/7iypsJrZajSWGsCkJ5yeitWzbyOgz0jjLkDQ=",
+  "Source": "SearchDaemon",
+  "BasePath": "_content/SearchDaemon",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

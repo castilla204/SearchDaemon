@@ -1,0 +1,338 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\App\\SearchDaemon\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0D35C2DD-7C85-42E4-A7F0-559259526FF4}|SearchDaemon.csproj|c:\\users\\diego\\onedrive - educacyl\\escritorio\\app\\searchdaemon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D35C2DD-7C85-42E4-A7F0-559259526FF4}|SearchDaemon.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D35C2DD-7C85-42E4-A7F0-559259526FF4}|SearchDaemon.csproj|c:\\users\\diego\\onedrive - educacyl\\escritorio\\app\\searchdaemon\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0D35C2DD-7C85-42E4-A7F0-559259526FF4}|SearchDaemon.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D35C2DD-7C85-42E4-A7F0-559259526FF4}|SearchDaemon.csproj|c:\\users\\diego\\onedrive - educacyl\\escritorio\\app\\searchdaemon\\scrappergateway\\datalayer\\wallapopmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D35C2DD-7C85-42E4-A7F0-559259526FF4}|SearchDaemon.csproj|solutionrelative:scrappergateway\\datalayer\\wallapopmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D35C2DD-7C85-42E4-A7F0-559259526FF4}|SearchDaemon.csproj|c:\\users\\diego\\onedrive - educacyl\\escritorio\\app\\searchdaemon\\scrappergateway\\datalayer\\migrations\\20250202190910_nuevonextexecution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D35C2DD-7C85-42E4-A7F0-559259526FF4}|SearchDaemon.csproj|solutionrelative:scrappergateway\\datalayer\\migrations\\20250202190910_nuevonextexecution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D35C2DD-7C85-42E4-A7F0-559259526FF4}|SearchDaemon.csproj|c:\\users\\diego\\onedrive - educacyl\\escritorio\\app\\searchdaemon\\scrappergateway\\datalayer\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D35C2DD-7C85-42E4-A7F0-559259526FF4}|SearchDaemon.csproj|solutionrelative:scrappergateway\\datalayer\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D35C2DD-7C85-42E4-A7F0-559259526FF4}|SearchDaemon.csproj|c:\\users\\diego\\onedrive - educacyl\\escritorio\\app\\searchdaemon\\scrappergateway\\datalayer\\migrations\\20250128231952_modificandouserteelfono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D35C2DD-7C85-42E4-A7F0-559259526FF4}|SearchDaemon.csproj|solutionrelative:scrappergateway\\datalayer\\migrations\\20250128231952_modificandouserteelfono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D35C2DD-7C85-42E4-A7F0-559259526FF4}|SearchDaemon.csproj|c:\\users\\diego\\onedrive - educacyl\\escritorio\\app\\searchdaemon\\scrappergateway\\datalayer\\migrations\\20250323192258_addingfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D35C2DD-7C85-42E4-A7F0-559259526FF4}|SearchDaemon.csproj|solutionrelative:scrappergateway\\datalayer\\migrations\\20250323192258_addingfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D35C2DD-7C85-42E4-A7F0-559259526FF4}|SearchDaemon.csproj|c:\\users\\diego\\onedrive - educacyl\\escritorio\\app\\searchdaemon\\scrappergateway\\datalayer\\migrations\\20250323201836_addingnotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D35C2DD-7C85-42E4-A7F0-559259526FF4}|SearchDaemon.csproj|solutionrelative:scrappergateway\\datalayer\\migrations\\20250323201836_addingnotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D35C2DD-7C85-42E4-A7F0-559259526FF4}|SearchDaemon.csproj|c:\\users\\diego\\onedrive - educacyl\\escritorio\\app\\searchdaemon\\scrappergateway\\datalayer\\migrations\\20250202190910_nuevonextexecution.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D35C2DD-7C85-42E4-A7F0-559259526FF4}|SearchDaemon.csproj|solutionrelative:scrappergateway\\datalayer\\migrations\\20250202190910_nuevonextexecution.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\App\\SearchDaemon\\obj\\Debug\\net8.0\\SearchDaemon.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net8.0\\SearchDaemon.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\App\\SearchDaemon\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D35C2DD-7C85-42E4-A7F0-559259526FF4}|SearchDaemon.csproj|c:\\users\\diego\\onedrive - educacyl\\escritorio\\app\\searchdaemon\\scrappergateway\\datalayer\\migrations\\20250323211218_addingnotifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D35C2DD-7C85-42E4-A7F0-559259526FF4}|SearchDaemon.csproj|solutionrelative:scrappergateway\\datalayer\\migrations\\20250323211218_addingnotifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D35C2DD-7C85-42E4-A7F0-559259526FF4}|SearchDaemon.csproj|c:\\users\\diego\\onedrive - educacyl\\escritorio\\app\\searchdaemon\\scrappergateway\\datalayer\\migrations\\20250323220106_notificationss.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D35C2DD-7C85-42E4-A7F0-559259526FF4}|SearchDaemon.csproj|solutionrelative:scrappergateway\\datalayer\\migrations\\20250323220106_notificationss.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D35C2DD-7C85-42E4-A7F0-559259526FF4}|SearchDaemon.csproj|c:\\users\\diego\\onedrive - educacyl\\escritorio\\app\\searchdaemon\\scrappergateway\\datalayer\\iweb2data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D35C2DD-7C85-42E4-A7F0-559259526FF4}|SearchDaemon.csproj|solutionrelative:scrappergateway\\datalayer\\iweb2data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D35C2DD-7C85-42E4-A7F0-559259526FF4}|SearchDaemon.csproj|c:\\users\\diego\\onedrive - educacyl\\escritorio\\app\\searchdaemon\\scrappergateway\\datalayer\\iweb3data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D35C2DD-7C85-42E4-A7F0-559259526FF4}|SearchDaemon.csproj|solutionrelative:scrappergateway\\datalayer\\iweb3data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D35C2DD-7C85-42E4-A7F0-559259526FF4}|SearchDaemon.csproj|c:\\users\\diego\\onedrive - educacyl\\escritorio\\app\\searchdaemon\\scrappergateway\\datalayer\\cochesnetmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D35C2DD-7C85-42E4-A7F0-559259526FF4}|SearchDaemon.csproj|solutionrelative:scrappergateway\\datalayer\\cochesnetmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D35C2DD-7C85-42E4-A7F0-559259526FF4}|SearchDaemon.csproj|c:\\users\\diego\\onedrive - educacyl\\escritorio\\app\\searchdaemon\\services\\backgroundsearchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D35C2DD-7C85-42E4-A7F0-559259526FF4}|SearchDaemon.csproj|solutionrelative:services\\backgroundsearchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D35C2DD-7C85-42E4-A7F0-559259526FF4}|SearchDaemon.csproj|c:\\users\\diego\\onedrive - educacyl\\escritorio\\app\\searchdaemon\\services\\iwebmixerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D35C2DD-7C85-42E4-A7F0-559259526FF4}|SearchDaemon.csproj|solutionrelative:services\\iwebmixerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D35C2DD-7C85-42E4-A7F0-559259526FF4}|SearchDaemon.csproj|c:\\users\\diego\\onedrive - educacyl\\escritorio\\app\\searchdaemon\\searchdaemon.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0D35C2DD-7C85-42E4-A7F0-559259526FF4}|SearchDaemon.csproj|solutionrelative:searchdaemon.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\App\\SearchDaemon\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\App\\SearchDaemon\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T20:24:51.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\App\\SearchDaemon\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\App\\SearchDaemon\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-25T19:08:50.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250128231952_modificandouserteelfono.cs",
+              "DocumentMoniker": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\App\\SearchDaemon\\ScrapperGateway\\DataLayer\\Migrations\\20250128231952_modificandouserteelfono.cs",
+              "RelativeDocumentMoniker": "ScrapperGateway\\DataLayer\\Migrations\\20250128231952_modificandouserteelfono.cs",
+              "ToolTip": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\App\\SearchDaemon\\ScrapperGateway\\DataLayer\\Migrations\\20250128231952_modificandouserteelfono.cs",
+              "RelativeToolTip": "ScrapperGateway\\DataLayer\\Migrations\\20250128231952_modificandouserteelfono.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T18:52:52.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20250323192258_AddingField.cs",
+              "DocumentMoniker": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\App\\SearchDaemon\\ScrapperGateway\\DataLayer\\Migrations\\20250323192258_AddingField.cs",
+              "RelativeDocumentMoniker": "ScrapperGateway\\DataLayer\\Migrations\\20250323192258_AddingField.cs",
+              "ToolTip": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\App\\SearchDaemon\\ScrapperGateway\\DataLayer\\Migrations\\20250323192258_AddingField.cs",
+              "RelativeToolTip": "ScrapperGateway\\DataLayer\\Migrations\\20250323192258_AddingField.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T18:51:07.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20250202190910_nuevonextexecution.cs",
+              "DocumentMoniker": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\App\\SearchDaemon\\ScrapperGateway\\DataLayer\\Migrations\\20250202190910_nuevonextexecution.cs",
+              "RelativeDocumentMoniker": "ScrapperGateway\\DataLayer\\Migrations\\20250202190910_nuevonextexecution.cs",
+              "ToolTip": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\App\\SearchDaemon\\ScrapperGateway\\DataLayer\\Migrations\\20250202190910_nuevonextexecution.cs",
+              "RelativeToolTip": "ScrapperGateway\\DataLayer\\Migrations\\20250202190910_nuevonextexecution.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T18:53:25.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\App\\SearchDaemon\\ScrapperGateway\\DataLayer\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "ScrapperGateway\\DataLayer\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\App\\SearchDaemon\\ScrapperGateway\\DataLayer\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "ScrapperGateway\\DataLayer\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T18:51:30.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20250202190910_nuevonextexecution.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\App\\SearchDaemon\\ScrapperGateway\\DataLayer\\Migrations\\20250202190910_nuevonextexecution.Designer.cs",
+              "RelativeDocumentMoniker": "ScrapperGateway\\DataLayer\\Migrations\\20250202190910_nuevonextexecution.Designer.cs",
+              "ToolTip": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\App\\SearchDaemon\\ScrapperGateway\\DataLayer\\Migrations\\20250202190910_nuevonextexecution.Designer.cs",
+              "RelativeToolTip": "ScrapperGateway\\DataLayer\\Migrations\\20250202190910_nuevonextexecution.Designer.cs",
+              "ViewState": "AgIAAPQAAAAAAAAAAAAswAIBAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T18:53:36.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SearchDaemon.AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\App\\SearchDaemon\\obj\\Debug\\net8.0\\SearchDaemon.AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net8.0\\SearchDaemon.AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\App\\SearchDaemon\\obj\\Debug\\net8.0\\SearchDaemon.AssemblyInfo.cs",
+              "RelativeToolTip": "obj\\Debug\\net8.0\\SearchDaemon.AssemblyInfo.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAswBIAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T18:51:22.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WallapopMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\App\\SearchDaemon\\ScrapperGateway\\DataLayer\\WallapopMappingProfile.cs",
+              "RelativeDocumentMoniker": "ScrapperGateway\\DataLayer\\WallapopMappingProfile.cs",
+              "ToolTip": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\App\\SearchDaemon\\ScrapperGateway\\DataLayer\\WallapopMappingProfile.cs",
+              "RelativeToolTip": "ScrapperGateway\\DataLayer\\WallapopMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T19:03:09.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20250323201836_AddingNotification.cs",
+              "DocumentMoniker": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\App\\SearchDaemon\\ScrapperGateway\\DataLayer\\Migrations\\20250323201836_AddingNotification.cs",
+              "RelativeDocumentMoniker": "ScrapperGateway\\DataLayer\\Migrations\\20250323201836_AddingNotification.cs",
+              "ToolTip": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\App\\SearchDaemon\\ScrapperGateway\\DataLayer\\Migrations\\20250323201836_AddingNotification.cs",
+              "RelativeToolTip": "ScrapperGateway\\DataLayer\\Migrations\\20250323201836_AddingNotification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T19:06:28.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": ".NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "DocumentMoniker": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\App\\SearchDaemon\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "ToolTip": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\App\\SearchDaemon\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "RelativeToolTip": "obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T18:51:22.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20250323220106_Notificationss.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\App\\SearchDaemon\\ScrapperGateway\\DataLayer\\Migrations\\20250323220106_Notificationss.Designer.cs",
+              "RelativeDocumentMoniker": "ScrapperGateway\\DataLayer\\Migrations\\20250323220106_Notificationss.Designer.cs",
+              "ToolTip": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\App\\SearchDaemon\\ScrapperGateway\\DataLayer\\Migrations\\20250323220106_Notificationss.Designer.cs",
+              "RelativeToolTip": "ScrapperGateway\\DataLayer\\Migrations\\20250323220106_Notificationss.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T19:02:59.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250323211218_AddingNotifications.cs",
+              "DocumentMoniker": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\App\\SearchDaemon\\ScrapperGateway\\DataLayer\\Migrations\\20250323211218_AddingNotifications.cs",
+              "RelativeDocumentMoniker": "ScrapperGateway\\DataLayer\\Migrations\\20250323211218_AddingNotifications.cs",
+              "ToolTip": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\App\\SearchDaemon\\ScrapperGateway\\DataLayer\\Migrations\\20250323211218_AddingNotifications.cs",
+              "RelativeToolTip": "ScrapperGateway\\DataLayer\\Migrations\\20250323211218_AddingNotifications.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T19:03:02.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IWeb2Data.cs",
+              "DocumentMoniker": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\App\\SearchDaemon\\ScrapperGateway\\DataLayer\\IWeb2Data.cs",
+              "RelativeDocumentMoniker": "ScrapperGateway\\DataLayer\\IWeb2Data.cs",
+              "ToolTip": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\App\\SearchDaemon\\ScrapperGateway\\DataLayer\\IWeb2Data.cs",
+              "RelativeToolTip": "ScrapperGateway\\DataLayer\\IWeb2Data.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T18:51:05.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IWeb3Data.cs",
+              "DocumentMoniker": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\App\\SearchDaemon\\ScrapperGateway\\DataLayer\\IWeb3Data.cs",
+              "RelativeDocumentMoniker": "ScrapperGateway\\DataLayer\\IWeb3Data.cs",
+              "ToolTip": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\App\\SearchDaemon\\ScrapperGateway\\DataLayer\\IWeb3Data.cs",
+              "RelativeToolTip": "ScrapperGateway\\DataLayer\\IWeb3Data.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T18:51:04.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CochesNetMappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\App\\SearchDaemon\\ScrapperGateway\\DataLayer\\CochesNetMappingProfile.cs",
+              "RelativeDocumentMoniker": "ScrapperGateway\\DataLayer\\CochesNetMappingProfile.cs",
+              "ToolTip": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\App\\SearchDaemon\\ScrapperGateway\\DataLayer\\CochesNetMappingProfile.cs",
+              "RelativeToolTip": "ScrapperGateway\\DataLayer\\CochesNetMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T18:51:02.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BackgroundSearchService.cs",
+              "DocumentMoniker": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\App\\SearchDaemon\\Services\\BackgroundSearchService.cs",
+              "RelativeDocumentMoniker": "Services\\BackgroundSearchService.cs",
+              "ToolTip": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\App\\SearchDaemon\\Services\\BackgroundSearchService.cs",
+              "RelativeToolTip": "Services\\BackgroundSearchService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T18:49:28.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IWebMixerService.cs",
+              "DocumentMoniker": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\App\\SearchDaemon\\Services\\IWebMixerService.cs",
+              "RelativeDocumentMoniker": "Services\\IWebMixerService.cs",
+              "ToolTip": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\App\\SearchDaemon\\Services\\IWebMixerService.cs",
+              "RelativeToolTip": "Services\\IWebMixerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T18:49:26.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SearchDaemon.csproj",
+              "DocumentMoniker": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\App\\SearchDaemon\\SearchDaemon.csproj",
+              "RelativeDocumentMoniker": "SearchDaemon.csproj",
+              "ToolTip": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\App\\SearchDaemon\\SearchDaemon.csproj",
+              "RelativeToolTip": "SearchDaemon.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-25T18:43:18.784Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
