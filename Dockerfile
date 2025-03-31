@@ -7,18 +7,20 @@ EXPOSE 7128
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-# Copiar el archivo de proyecto y restaurar paquetes
+# Copiar el archivo de proyecto y restaurar paquetes antes de copiar todo el código
 COPY ["SearchDaemon.csproj", "./"]
 
-# **Corrección**: Restaurar paquetes en una ubicación accesible dentro del contenedor
-RUN dotnet nuget locals all --clear && \
-    dotnet restore "SearchDaemon.csproj" --no-cache --packages /root/.nuget/packages
+# Restaurar paquetes de NuGet
+RUN dotnet restore "SearchDaemon.csproj" --no-cache --packages /root/.nuget/packages
 
-# Copiar todo el código después de restaurar (optimización de caché)
+# Copiar todo el código después de restaurar para optimizar la caché de Docker
 COPY . .
 
+# Limpiar caché de NuGet
+RUN dotnet nuget locals all --clear
+
 # Compilar la aplicación
-RUN dotnet build "SearchDaemon.csproj" -c Release -o /app/build --no-restore
+RUN dotnet build "SearchDaemon.csproj" -c Release -o /app/build
 
 # Publicar la aplicación
 FROM build AS publish
