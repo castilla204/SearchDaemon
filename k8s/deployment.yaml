@@ -1,4 +1,3 @@
-# k8s/deployment.yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -19,7 +18,15 @@ spec:
         image: erizo9/searchdaemon:latest
         ports:
         - containerPort: 80
-
+        env:
+        - name: RABBITMQ_HOST
+          value: "rabbitmq-svc"
+        - name: RABBITMQ_PORT
+          value: "5672"
+        - name: RABBITMQ_USER
+          value: "admin"
+        - name: RABBITMQ_PASSWORD
+          value: "REEMPLAZAR"
 ---
 apiVersion: v1
 kind: Service
@@ -33,7 +40,6 @@ spec:
   selector:
     app: search-daemon
   type: NodePort
-
 ---
 apiVersion: autoscaling/v2
 kind: HorizontalPodAutoscaler
