@@ -1,0 +1,62 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: search-daemon
+  namespace: default
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: search-daemon
+  template:
+    metadata:
+      labels:
+        app: search-daemon
+    spec:
+      containers:
+      - name: search-daemon
+        image: erizo9/searchdaemon:latest
+        ports:
+        - containerPort: 80
+        env:
+        - name: RABBITMQ_HOST
+          value: "rabbitmq-svc"
+        - name: RABBITMQ_PORT
+          value: "5672"
+        - name: RABBITMQ_USER
+          value: "admin"
+        - name: RABBITMQ_PASSWORD
+          value: "REEMPLAZAR"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: search-daemon-svc
+  namespace: default
+spec:
+  ports:
+  - port: 80
+    targetPort: 80
+  selector:
+    app: search-daemon
+  type: NodePort
+---
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: search-daemon-hpa
+  namespace: default
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: search-daemon
+  minReplicas: 2
+  maxReplicas: 10
+  metrics:
+  - type: Resource
+    resource:
+      name: cpu
+      target:
+        type: Utilization
+        averageUtilization: 70
