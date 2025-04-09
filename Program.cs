@@ -2,11 +2,9 @@ using System.Text;
 using System.Diagnostics; // Para lanzar el navegador
 using RabbitMQ.Client;
 using Microsoft.EntityFrameworkCore;
-
 using ServicesLayer;
 using DataLayer.Models;
 using SearchDaemon.RabbitMQ;
-
 using SearchDaemon.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,14 +14,33 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(); // Agrega el generador de Swagger
 
+// Configurar la cadena de conexión según el entorno
+if (builder.Environment.IsDevelopment())
+{
+    builder.Configuration["ConnectionStrings:PostgresConnection"] = "Host=localhost;Port=5432;Username=postgres;Password=REEMPLAZAR;Database=grup";
+}
+else
+{
+    builder.Configuration["ConnectionStrings:PostgresConnection"] = "Host=postgres-svc;Port=5432;Username=admin;Password=REEMPLAZAR;Database=atrapo";
+}
+
+// Configure PostgreSQL
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("PostgresConnection")));
+
 // Configure RabbitMQ
 builder.Services.AddSingleton<IConnectionFactory>(sp =>
-    new ConnectionFactory
+{
+    var config = builder.Configuration;
+    var isDevelopment = builder.Environment.IsDevelopment();
+    return new ConnectionFactory
     {
-        HostName = builder.Configuration["RabbitMQ:HostName"] ?? "localhost",
-        UserName = builder.Configuration["RabbitMQ:UserName"] ?? "guest",
-        Password = builder.Configuration["RabbitMQ:Password"] ?? "guest"
-    });
+        HostName = isDevelopment ? "localhost" : config["RABBITMQ_HOST"] ?? "rabbitmq-svc",
+        Port = int.Parse(config["RABBITMQ_PORT"] ?? "5672"),
+        UserName = config["RABBITMQ_USER"] ?? "admin",
+        Password = config["RABBITMQ_PASSWORD"] ?? "REEMPLAZAR"
+    };
+});
 
 // Configure CORS
 builder.Services.AddCors(options =>
@@ -41,10 +58,6 @@ builder.Services.AddScoped<IRabbitMQService, RabbitMQService>();
 builder.Services.AddScoped<IWebMixerService, WebMixerService>();
 builder.Services.AddHttpClient();
 
-// Configure DbContext
-builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("PostgresConnection")));
-
 // Add Background Service
 builder.Services.AddHostedService<BackgroundSearchService>();
 
@@ -55,8 +68,6 @@ app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
     c.SwaggerEndpoint("/swagger/v1/swagger.json", "API V1");
-
-    // Opcional: configuración para entornos seguros
     c.OAuthClientId("swagger-client-id");
     c.OAuthAppName("Swagger Test");
     c.OAuthUseBasicAuthenticationWithAccessCodeGrant();
@@ -65,7 +76,6 @@ app.UseSwaggerUI(c =>
 // Habilita CORS antes de autenticación/authorization
 app.UseCors("AllowAll");
 
-// Desactiva HTTPS redirection, ya que solo estamos usando HTTP
 // app.UseHttpsRedirection();
 
 app.UseAuthentication();
@@ -83,10 +93,7 @@ Task.Run(() =>
 {
     try
     {
-        // Espera a que la aplicación inicie
         Task.Delay(2000).Wait();
-
-        // Abre el navegador en la URL de Swagger
         var psi = new ProcessStartInfo
         {
             FileName = url + "/swagger",
