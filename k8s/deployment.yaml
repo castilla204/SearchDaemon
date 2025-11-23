@@ -4,7 +4,7 @@ metadata:
   name: search-daemon
   namespace: default
 spec:
-  replicas: 2
+  replicas: 0
   selector:
     matchLabels:
       app: search-daemon
@@ -27,6 +27,13 @@ spec:
           value: "admin"
         - name: RABBITMQ_PASSWORD
           value: "REEMPLAZAR"
+        resources:
+          requests:
+            cpu: "50m"
+            memory: "128Mi"
+          limits:
+            cpu: "200m"
+            memory: "256Mi"
 ---
 apiVersion: v1
 kind: Service
@@ -51,8 +58,8 @@ spec:
     apiVersion: apps/v1
     kind: Deployment
     name: search-daemon
-  minReplicas: 2
-  maxReplicas: 10
+  minReplicas: 0
+  maxReplicas: 0
   metrics:
   - type: Resource
     resource:
