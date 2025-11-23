@@ -38,10 +38,6 @@
       "k8s/**/*.yml"
     ]
   },
-  "schedule": [
-    "before 10am on monday"
-  ],
-  "timezone": "Europe/Madrid",
   "labels": [
     "dependencies",
     "renovate"
