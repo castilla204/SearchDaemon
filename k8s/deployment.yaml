@@ -26,7 +26,10 @@ spec:
         - name: RABBITMQ_USER
           value: "admin"
         - name: RABBITMQ_PASSWORD
-          value: "REEMPLAZAR"
+          valueFrom:
+            secretKeyRef:
+              name: newapi-secrets
+              key: rabbitmq-password
         resources:
           requests:
             cpu: "50m"
