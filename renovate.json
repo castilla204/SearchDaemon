@@ -29,7 +29,7 @@
     }
   ],
   "kubernetes": {
-    "fileMatch": [
+    "managerFilePatterns": [
       "**/deployment.yaml",
       "**/deployment.yml",
       "**/statefulset.yaml",
